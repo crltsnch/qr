@@ -7,7 +7,6 @@ def decode(data):
         return decode(decoded.decode('utf-8'))
     except:
         return data
-    return decoded
 
 resultado = decode(data)
 print(resultado)
