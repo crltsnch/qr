@@ -1,5 +1,6 @@
 # qr
 El link a mi repositorio es: [GitHub](https://github.com/crltsnch/qr.git)
+
 En este repositorio decodifico el qr de la imagen flag.png codifico en base64. Primero he leído el QR con el comando _zbarimg flag.png_. Este mensaje lo he decodificado con la librería base64 que viene integrada con Python y no hace falta descargarla en el archivo qr.py:
 
  ```
